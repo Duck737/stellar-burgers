@@ -9,7 +9,7 @@ export interface IOrder {
   error: string | null;
 }
 
-const initialState: IOrder = {
+export const initialState: IOrder = {
   orders: [],
   order: null,
   isLoading: false,
