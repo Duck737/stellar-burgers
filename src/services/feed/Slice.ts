@@ -10,7 +10,7 @@ export interface IFeed {
   error: string | null;
 }
 
-const initialState: IFeed = {
+export const initialState: IFeed = {
   orders: [],
   totalToday: 0,
   total: 0,
